@@ -1,0 +1,167 @@
+body {
+    background-color: aliceblue;
+}
+
+.navColor {
+    background-color: #56ccf2 !important;
+}
+
+.navLogo {
+    max-width: 110px;
+    height: 45px;
+}
+
+.fontStyle {
+    font-weight: bold;
+}
+
+.iconStyle {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.card1,
+.card2,
+.card3 {
+    display: flex;
+    width: 390PX;
+    height: 65px;
+    box-shadow: 2px 4px 5px grey;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.mainCard {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.heading {
+    text-align: center;
+}
+
+.heading>h3 {
+    text-shadow: 2px 4px 5px grey;
+    font-weight: bold;
+}
+
+.newArrivals {
+    margin-top: 30px;
+}
+
+.column {
+    display: flex;
+    justify-content: center;
+}
+
+.arrivalCard {
+    width: 188px;
+    height: auto !important;
+    margin: 5px;
+    ;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.button {
+    width: 100%;
+}
+
+.footer {
+    width: 100%;
+    background-color: #56ccf2;
+    height: 150px;
+}
+
+.footer>div {
+    text-align: center;
+}
+
+.footerLogo {
+    max-width: 110px;
+    height: 45px;
+    margin-top: 20px;
+}
+
+.copyRightText {
+    font-weight: 400;
+    font-size: medium;
+    margin-top: 4px;
+}
+
+.links {
+    border-right: 1px solid !important;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.footerLinks {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 35%;
+}
+
+.footerLinks>.verticalLine {
+    font-weight: bold;
+    height: 5px;
+}
+
+.linkStyle {
+    color: #111;
+    font-weight: bold;
+}
+
+.linkStyle:hover {
+    color: #141212;
+    font-weight: 1000;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 820px) {
+
+    .card1,
+    .card2,
+    .card3 {
+        width: 100%;
+        height: 35px;
+    }
+
+    .footerLinks {
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 26%;
+    }
+}
+
+@media screen and (max-width: 575.98px) {
+    .arrivalCard {
+        width: 170px;
+    }
+
+    .column {
+        margin-top: 2px;
+    }
+
+    .footerLinks {
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 5%;
+    }
+
+    .linkStyle {
+        color: #111;
+        font-weight: 700;
+    }
+}
